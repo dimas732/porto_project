@@ -1,0 +1,26 @@
+/* Custom Stylesheet */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Avatar styling */
+.profile-avatar {
+  width: 180px;
+  height: 180px;
+}
+
+/* Card Hover Animation */
+#projects .card, #skills .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .card:hover, #skills .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* Section Spacing adjustment for fixed-nav */
+section {
+  scroll-margin-top: 60px;
+}
